@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>Caneda</Name>
+    <Version>0.1.0</Version>
+    <Title>Caneda Installer</Title>
+    <Publisher>Caneda</Publisher>
+    <InstallerApplicationIcon>canedaicon</InstallerApplicationIcon>
+    <InstallerWindowIcon>canedaicon</InstallerWindowIcon>
+    <Logo>canedaicon</Logo>
+    <StartMenuDir>Caneda</StartMenuDir>
+    <TargetDir>C:/Program Files (x86)/Caneda</TargetDir>
+</Installer>
