@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Installer>
     <Name>Caneda</Name>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
     <Title>Caneda Installer</Title>
     <Publisher>Caneda</Publisher>
     <InstallerApplicationIcon>canedaicon</InstallerApplicationIcon>

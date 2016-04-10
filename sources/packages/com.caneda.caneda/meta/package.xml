@@ -2,8 +2,8 @@
 <Package>
     <DisplayName>Caneda</DisplayName>
     <Description>Caneda main components. This component installs all of Caneda needed files into the destination directory.</Description>
-    <Version>0.1.0</Version>
-    <ReleaseDate>2016-02-08</ReleaseDate>
+    <Version>0.2.0</Version>
+    <ReleaseDate>2016-04-10</ReleaseDate>
     <Name>com.caneda.caneda</Name>
     <Licenses>
         <License name="License Agreement" file="COPYING" />
