@@ -76,19 +76,19 @@ Download the last ngspice binary packages for Windows from [ng-spice-rework](htt
 Mannually copy the files inside the `bin` directory from ngspice to the `bin` directory from Caneda (`C:\Program Files (x86)\Caneda\bin\`).
 
 ## Caneda Installer Compilation
-The final step is to create an installer with the previously generated files and directories. For this step, the sources contained in this repository are used.
+The final step is to create an installer with the previously generated files and directories. For this step, the sources contained in this repository are used. The tools used are provided by Qt, under the folder `C:\Qt\QtIFW2.0.1\bin\`, in case that folder is not added to your system path you can run the following commands from inside that folder.
 
-Update the xmls in this repository to reflect Caneda's changes. At minimum the software versions should be bumped.
+Update the xmls in this repository to reflect Caneda's changes. At minimum the software versions should be bumped. Copy the repository files into your system, for example in the folder `C:\sources\`.
 
 Generate a 7z file from the Caneda installed files.
 
-`archivegen caneda.7z C:\Program Files (x86)\Caneda\*`
+`archivegen caneda.7z "C:\Program Files (x86)\Caneda\*"`
 
-Mannualy copy the generated 7z file into the folder `\sources\packages\com.caneda.caneda\data`
+Mannualy copy the generated 7z file into the folder `C:\sources\packages\com.caneda.caneda\data`
 
 Create the installer by executing the binarycreator tool:
 
-`binarycreator -c sources\config\config.xml -p sources\packages CanedaInstaller.exe`
+`binarycreator -c C:\sources\config\config.xml -p C:\sources\packages CanedaInstaller.exe`
 
 References
 ==========
